@@ -59,8 +59,4 @@ What tool is used to get detailed information about DNS name servers?
 ## Quiz Answer
 
 dig
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

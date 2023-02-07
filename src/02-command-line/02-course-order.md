@@ -19,8 +19,4 @@
 18-alias-command.md
 19-exit-command.md
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

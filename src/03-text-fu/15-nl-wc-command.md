@@ -41,8 +41,4 @@ What command would you use to get the total number of words in a file and just t
 ## Quiz Answer
 
 wc -w
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

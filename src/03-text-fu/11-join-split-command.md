@@ -63,8 +63,4 @@ What command would you use to join files named cat dog cow?
 
 join cat dog cow
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

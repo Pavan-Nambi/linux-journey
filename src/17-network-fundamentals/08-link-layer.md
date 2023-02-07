@@ -43,8 +43,4 @@ What is used to find the MAC address on the same network?
 
 ARP
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

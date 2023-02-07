@@ -27,8 +27,4 @@ What command is used to make an alias?
 ## Quiz Answer
 
 alias
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

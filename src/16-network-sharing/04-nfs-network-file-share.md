@@ -26,8 +26,4 @@ What tool is used to manage mount points automatically?
 ## Quiz Answer
 
 automount
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

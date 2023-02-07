@@ -31,8 +31,4 @@ What is the abbreviation for the nameservers where .com, .net, .org, etc address
 ## Quiz Answer
 
 TLD
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

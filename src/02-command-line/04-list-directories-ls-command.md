@@ -43,8 +43,4 @@ What command would you use to see hidden files?
 ## Quiz Answer
 
 ls -a
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

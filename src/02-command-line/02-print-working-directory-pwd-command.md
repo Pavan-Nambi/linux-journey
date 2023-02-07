@@ -36,8 +36,4 @@ How do I find what directory you are currently in?
 ## Quiz Answer
 
 pwd
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -27,8 +27,4 @@ What STAT code is used to represent an uninterruptible sleep?
 ## Quiz Answer
 
 D
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

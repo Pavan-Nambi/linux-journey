@@ -53,8 +53,4 @@ What is the top layer of the TCP/IP model?
 ## Quiz Answer
 
 Application
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

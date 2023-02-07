@@ -24,8 +24,4 @@ What is used to switch from user mode to kernel mode?
 
 system call
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

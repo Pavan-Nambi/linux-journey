@@ -50,8 +50,6 @@
 
 * DNS - Everything and more that you wanted to know about DNS.
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>
+
+

@@ -38,8 +38,4 @@ How do you see the kernel version of your system?
 
 uname -r
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

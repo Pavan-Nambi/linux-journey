@@ -25,8 +25,4 @@ What value is given for a process that does not have a controlling terminal?
 ## Quiz Answer
 
 ?
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

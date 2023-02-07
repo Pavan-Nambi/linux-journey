@@ -62,8 +62,4 @@ What ps flag is used to view detailed information about processes?
 ## Quiz Answer
 
 u
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

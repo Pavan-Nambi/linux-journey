@@ -19,8 +19,4 @@ What is the term used when all routing tables know the network topology?
 ## Quiz Answer
 
 convergence
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

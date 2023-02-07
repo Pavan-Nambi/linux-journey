@@ -19,8 +19,4 @@ What command is used to create a filesystem?
 ## Quiz Answer
 
 mkfs
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -47,8 +47,4 @@ What command can be used to view I/O and CPU usage?
 ## Quiz Answer
 
 iostat
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

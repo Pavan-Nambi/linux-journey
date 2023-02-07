@@ -31,8 +31,4 @@ What is the command to poweroff your system in 4 minutes?
 ## Quiz Answer
 
 sudo shutdown -h +4
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

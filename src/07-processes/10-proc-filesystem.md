@@ -25,8 +25,4 @@ What filesystem stores process information?
 ## Quiz Answer
 
 /proc
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

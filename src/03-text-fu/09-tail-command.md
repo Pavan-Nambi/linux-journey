@@ -29,8 +29,4 @@ What is the flag used to follow a file in tail?
 ## Quiz Answer
 
 -f
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

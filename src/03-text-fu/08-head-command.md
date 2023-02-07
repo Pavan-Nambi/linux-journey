@@ -25,8 +25,4 @@ What flag would you use to change the number of lines you want to view for the h
 ## Quiz Answer
 
 -n
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

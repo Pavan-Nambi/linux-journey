@@ -51,8 +51,4 @@ What command is used to unload a module?
 ## Quiz Answer
 
 modprobe -r
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

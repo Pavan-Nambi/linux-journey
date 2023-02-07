@@ -242,8 +242,6 @@
     - [etc hosts](22-dns/04-etc-hosts.md)
     - [dns setup](22-dns/05-dns-setup.md)
     - [dns tools](22-dns/06-dns-tools.md)
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>
+
+

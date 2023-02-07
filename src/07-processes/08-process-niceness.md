@@ -32,8 +32,4 @@ If I want a process to get more CPU priority, do I use a lower or higher nice nu
 
 lower
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

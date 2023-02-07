@@ -21,8 +21,4 @@ What command can you use to find the file type of a file?
 ## Quiz Answer
 
 file
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

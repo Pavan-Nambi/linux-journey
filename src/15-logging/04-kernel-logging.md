@@ -19,8 +19,4 @@ What command can be used to view kernel bootup messages?
 ## Quiz Answer
 
 dmesg
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

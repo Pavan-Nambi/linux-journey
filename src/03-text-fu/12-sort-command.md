@@ -54,8 +54,4 @@ What flag do you use to do a reverse sort?
 
 -r
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

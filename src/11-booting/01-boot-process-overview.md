@@ -35,8 +35,4 @@ What is the last stage in the Linux boot process?
 ## Quiz Answer
 
 init
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

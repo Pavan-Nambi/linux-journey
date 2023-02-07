@@ -51,8 +51,4 @@ What is the package management tool for .deb files?
 
 dpkg
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

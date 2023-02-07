@@ -38,8 +38,4 @@ What command would be useful for data backups?
 ## Quiz Answer
 
 rsync
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

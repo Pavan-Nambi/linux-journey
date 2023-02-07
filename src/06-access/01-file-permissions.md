@@ -35,8 +35,4 @@ What permission bit is used for executable?
 ## Quiz Answer
 
 x
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

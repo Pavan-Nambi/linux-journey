@@ -26,8 +26,4 @@ What system call creates a new process?
 
 fork
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

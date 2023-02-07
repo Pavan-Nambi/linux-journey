@@ -48,8 +48,4 @@ What is the command flag to delete a route?
 
 del
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

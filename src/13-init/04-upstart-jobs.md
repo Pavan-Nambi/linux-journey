@@ -51,8 +51,4 @@ How would I manually restart an Upstart job called peanuts?
 
 sudo initctl restart peanuts
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

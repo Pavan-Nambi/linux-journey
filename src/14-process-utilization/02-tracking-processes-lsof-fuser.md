@@ -51,8 +51,4 @@ What command is used to list open files and their process information?
 ## Quiz Answer
 
 lsof
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

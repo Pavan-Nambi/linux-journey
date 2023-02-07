@@ -40,8 +40,4 @@ What UID decides what access to grant?
 
 effective
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

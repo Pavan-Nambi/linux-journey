@@ -31,8 +31,4 @@ What is used to represent a single private address to the Internet?
 ## Quiz Answer
 
 NAT
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

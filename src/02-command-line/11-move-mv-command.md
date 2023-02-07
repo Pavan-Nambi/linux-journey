@@ -39,8 +39,4 @@ How do you rename a file called cat to dog?
 ## Quiz Answer
 
 mv cat dog
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

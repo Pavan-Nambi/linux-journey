@@ -68,8 +68,4 @@ What is the flag to capture a specific interface with tcpdump?
 
 -i
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

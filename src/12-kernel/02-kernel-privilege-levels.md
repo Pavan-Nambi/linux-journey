@@ -24,8 +24,4 @@ What ring number has the highest privileges?
 
 0
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -34,8 +34,4 @@ What is the command to edit your cronjobs?
 ## Quiz Answer
 
 crontab -e
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

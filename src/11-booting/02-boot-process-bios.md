@@ -27,8 +27,4 @@ What does the BIOS load?
 ## Quiz Answer
 
 bootloader
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

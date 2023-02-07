@@ -38,8 +38,4 @@ What resource record type is used for mail exchangers?
 ## Quiz Answer
 
 MX
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

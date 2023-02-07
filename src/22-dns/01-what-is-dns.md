@@ -19,8 +19,4 @@ True or false, DNS helps us find MAC addresses for hostnames?
 ## Quiz Answer
 
 false
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

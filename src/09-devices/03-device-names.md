@@ -46,8 +46,4 @@ What would commonly be the device name for the first partition on the second SCS
 ## Quiz Answer
 
 sdb1
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

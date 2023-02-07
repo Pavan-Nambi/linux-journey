@@ -29,8 +29,4 @@ What is the de facto DNS server for Linux?
 ## Quiz Answer
 
 BIND
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

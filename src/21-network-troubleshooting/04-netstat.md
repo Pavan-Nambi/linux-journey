@@ -72,8 +72,4 @@ What port is used for HTTPS?
 ## Quiz Answer
 
 443
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -63,8 +63,4 @@ What is the command to start a service named peanut.service?
 ## Quiz Answer
 
 sudo systemctl start peanut.service
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

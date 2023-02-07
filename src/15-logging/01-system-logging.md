@@ -31,8 +31,4 @@ What is the daemon that manages log on newer Linux systems?
 
 rsyslogd
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

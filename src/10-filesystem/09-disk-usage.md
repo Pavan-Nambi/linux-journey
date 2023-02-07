@@ -32,8 +32,4 @@ What command is use to show how much space is free on your disk?
 
 df
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

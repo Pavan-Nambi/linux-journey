@@ -81,8 +81,4 @@ What command displays the same output as the first line in top?
 ## Quiz Answer
 
 uptime
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -26,8 +26,4 @@ What is the kernel image called in /boot?
 ## Quiz Answer
 
 vmlinuz
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

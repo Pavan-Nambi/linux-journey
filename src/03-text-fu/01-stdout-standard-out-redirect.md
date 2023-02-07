@@ -47,8 +47,4 @@ What redirector do you use to append output to a file?
 
 >>
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -39,8 +39,4 @@ What is the roundtrip time unit of measurement?
 ## Quiz Answer
 
 ms
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

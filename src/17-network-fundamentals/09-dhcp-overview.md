@@ -31,8 +31,4 @@ What are the steps in a DHCP request?
 
 DISCOVER, OFFER, REQUEST, ACK
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -26,8 +26,4 @@ What command is used to convert TABs to spaces?
 
 expand
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

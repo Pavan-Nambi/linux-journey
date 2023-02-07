@@ -81,8 +81,4 @@ What is the command to configure our network interfaces?
 
 ifconfig
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

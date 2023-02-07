@@ -24,8 +24,4 @@ What is the binary equivalent of 255?
 ## Quiz Answer
 
 11111111
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

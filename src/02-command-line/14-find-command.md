@@ -29,8 +29,4 @@ What option should I specify for find if I want to search by name?
 ## Quiz Answer
 
 -name
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

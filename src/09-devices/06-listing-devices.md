@@ -27,8 +27,4 @@ What command can be used to view usb devices?
 ## Quiz Answer
 
 lsusb
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

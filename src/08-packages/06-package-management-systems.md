@@ -46,8 +46,4 @@ What command is used to show package information on a Debian system?
 
 apt show
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

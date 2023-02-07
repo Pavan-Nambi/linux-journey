@@ -23,8 +23,4 @@ Where are device files stored on the system?
 ## Quiz Answer
 
 /dev
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

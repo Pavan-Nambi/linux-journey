@@ -21,8 +21,4 @@ What tool can you use to create a simple http server with python?
 ## Quiz Answer
 
 SimpleHTTPServer
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

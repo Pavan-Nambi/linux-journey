@@ -26,8 +26,4 @@ What is the local area network known as?
 ## Quiz Answer
 
 LAN
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

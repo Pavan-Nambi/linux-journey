@@ -20,8 +20,4 @@ What layer is used to present the packet data in a user friendly format?
 
 Application
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

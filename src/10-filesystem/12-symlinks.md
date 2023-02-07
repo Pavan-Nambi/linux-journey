@@ -75,8 +75,4 @@ What is the command used to make a symlink?
 
 ln -s
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

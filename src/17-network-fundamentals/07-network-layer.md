@@ -18,8 +18,4 @@ What are smaller networks that make up the Internet called?
 
 subnets
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

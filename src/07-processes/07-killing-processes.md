@@ -37,8 +37,4 @@ What is the signal name for the default kill command?
 ## Quiz Answer
 
 SIGTERM
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

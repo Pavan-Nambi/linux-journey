@@ -65,8 +65,4 @@ What is the symbol for character devices in the ls -l command?
 ## Quiz Answer
 
 c
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

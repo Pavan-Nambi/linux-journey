@@ -31,8 +31,4 @@ What is the command to clear the terminal?
 ## Quiz Answer
 
 clear
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

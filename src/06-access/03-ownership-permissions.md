@@ -32,8 +32,4 @@ What command do you use to change user ownership?
 ## Quiz Answer
 
 chown
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

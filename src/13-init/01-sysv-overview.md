@@ -47,8 +47,4 @@ What runlevel is usually used for shutdown?
 
 0
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

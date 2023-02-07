@@ -72,8 +72,4 @@ What is the parted command to make a partition?
 ## Quiz Answer
 
 mkpart
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

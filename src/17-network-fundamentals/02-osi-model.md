@@ -15,8 +15,4 @@ What is used as the theoretical model of networking?
 ## Quiz Answer
 
 OSI
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

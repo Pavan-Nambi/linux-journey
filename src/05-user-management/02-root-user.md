@@ -21,8 +21,4 @@ What file shows the users who have access to sudo?
 ## Quiz Answer
 
 /etc/sudoers
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

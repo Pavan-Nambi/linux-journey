@@ -35,8 +35,4 @@ What flag do you use with paste to make everything go on one line?
 ## Quiz Answer
 
 -s
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

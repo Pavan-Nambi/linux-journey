@@ -31,8 +31,4 @@ What is the newest standard for init?
 ## Quiz Answer
 
 systemd
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

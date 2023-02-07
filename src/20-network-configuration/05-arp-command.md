@@ -39,8 +39,4 @@ What command can you use to view your ARP cache?
 
 arp
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

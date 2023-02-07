@@ -23,8 +23,4 @@ How do you get quick command line help for built-in bash commands?
 ## Quiz Answer
 
 help
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

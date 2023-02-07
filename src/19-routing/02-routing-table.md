@@ -48,8 +48,4 @@ Where are packets routed to if our routing table doesn't know?
 ## Quiz Answer
 
 Gateway
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

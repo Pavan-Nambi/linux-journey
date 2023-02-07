@@ -44,8 +44,4 @@ What command is used to attach a filesystem?
 ## Quiz Answer
 
 mount
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

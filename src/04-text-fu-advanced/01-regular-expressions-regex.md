@@ -79,8 +79,4 @@ What regular expression would you use to match a single character?
 ## Quiz Answer
 
 .
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

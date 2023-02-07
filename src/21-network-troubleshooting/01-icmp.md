@@ -36,8 +36,4 @@ What is the ICMP type for echo request?
 ## Quiz Answer
 
 8
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

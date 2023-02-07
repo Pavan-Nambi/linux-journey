@@ -27,8 +27,4 @@ How do you create a file called myfile?
 ## Quiz Answer
 
 touch myfile
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

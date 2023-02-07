@@ -52,8 +52,4 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 
 cd ..
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

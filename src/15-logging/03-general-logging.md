@@ -27,8 +27,4 @@ What log file logs everything except auth messages?
 ## Quiz Answer
 
 syslog
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -70,8 +70,4 @@ How do you see how many inodes are left on your system?
 ## Quiz Answer
 
 df -i
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

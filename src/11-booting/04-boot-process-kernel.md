@@ -24,8 +24,4 @@ What is used in modern systems to load up a temporary root filesystem?
 
 initramfs
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

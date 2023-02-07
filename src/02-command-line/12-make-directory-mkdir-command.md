@@ -21,8 +21,4 @@ What command is use to make a directory?
 ## Quiz Answer
 
 mkdir
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

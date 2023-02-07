@@ -37,8 +37,4 @@ If a user doesn't have login access how is that denoted in /etc/passwd?
 ## Quiz Answer
 
 *
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

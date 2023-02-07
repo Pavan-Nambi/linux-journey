@@ -19,8 +19,4 @@ What command can you use to see a small description of a command?
 ## Quiz Answer
 
 whatis
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

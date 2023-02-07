@@ -48,8 +48,4 @@ What is the init implementation that is used by Ubuntu?
 
 upstart
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

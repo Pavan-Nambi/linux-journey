@@ -32,8 +32,4 @@ What should be outputted to the display when you type echo Hello World?
 ## Quiz Answer
 
 Hello World
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -95,8 +95,4 @@ What command would you use to remove duplicates in a file?
 
 uniq
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

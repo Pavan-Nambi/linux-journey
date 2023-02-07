@@ -31,8 +31,4 @@ What number represents the SGID?
 ## Quiz Answer
 
 2
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -32,8 +32,4 @@ What command can you use to securely copy files from one host to another?
 
 scp
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

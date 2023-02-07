@@ -55,8 +55,4 @@ How do you see your environment variables?
 env
 
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -29,8 +29,4 @@ How do you access the help menu?
 ## Quiz Answer
 
 C-h C-h
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

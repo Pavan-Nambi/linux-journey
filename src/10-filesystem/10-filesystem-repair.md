@@ -19,8 +19,4 @@ What command is used to check the integrity of a filesystem?
 ## Quiz Answer
 
 fsck
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

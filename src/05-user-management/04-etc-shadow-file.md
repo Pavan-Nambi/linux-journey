@@ -34,8 +34,4 @@ Take a look at the /etc/shadow file
 No questions move along!
 
 ## Quiz Answer
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

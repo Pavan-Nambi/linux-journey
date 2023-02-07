@@ -37,8 +37,4 @@ What is the command to enable swap space on a device?
 
 swapon
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -39,8 +39,4 @@ How do you kill a buffer?
 ## Quiz Answer
 
 C-x k
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

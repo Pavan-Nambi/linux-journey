@@ -61,8 +61,4 @@ What is the latest protocol used for file transfer between Windows and Linux?
 
 CIFS
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

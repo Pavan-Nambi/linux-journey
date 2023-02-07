@@ -25,8 +25,4 @@ What log is used for user authentication?
 ## Quiz Answer
 
 auth.log
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

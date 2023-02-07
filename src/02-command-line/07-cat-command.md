@@ -19,8 +19,4 @@ What's a good way to see the contents of a file?
 ## Quiz Answer
 
 cat
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

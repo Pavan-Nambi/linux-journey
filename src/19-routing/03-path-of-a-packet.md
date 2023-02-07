@@ -33,8 +33,4 @@ How do we find the MAC address of an IP address?
 
 ARP
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

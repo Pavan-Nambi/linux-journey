@@ -46,8 +46,4 @@ What is the common Linux filesystem type?
 ## Quiz Answer
 
 ext4
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

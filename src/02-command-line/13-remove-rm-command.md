@@ -40,8 +40,4 @@ You can remove a directory with the rmdir command.
 How do you remove a file called myfile?
 
 ## Quiz Answer
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -46,8 +46,4 @@ What file is used to map hostnames to IP addresses on our machines?
 ## Quiz Answer
 
 /etc/hosts
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

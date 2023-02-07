@@ -19,8 +19,4 @@ True or false, distance protocols use the route with the least amount of bandwid
 ## Quiz Answer
 
 false
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -84,8 +84,4 @@ What partition type is used to create more than 4 partitions in the MBR partitio
 
 extended
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

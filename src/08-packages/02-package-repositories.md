@@ -21,8 +21,4 @@ Where is the sources file in a Debian system?
 ## Quiz Answer
 
 /etc/apt/sources.list
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

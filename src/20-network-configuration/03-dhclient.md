@@ -21,8 +21,4 @@ What tries to assign IP addresses with the DHCP protocol?
 ## Quiz Answer
 
 dhclient
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

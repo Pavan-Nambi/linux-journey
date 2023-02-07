@@ -30,8 +30,4 @@ How do you quit out of a less command?
 ## Quiz Answer
 
 q
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

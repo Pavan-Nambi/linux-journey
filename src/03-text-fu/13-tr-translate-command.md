@@ -24,8 +24,4 @@ What command is used to translate characters?
 ## Quiz Answer
 
 tr
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

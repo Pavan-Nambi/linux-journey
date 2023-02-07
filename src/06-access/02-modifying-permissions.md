@@ -54,8 +54,4 @@ What number represents the read permission when using numerical format?
 ## Quiz Answer
 
 4
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

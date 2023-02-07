@@ -35,8 +35,4 @@ What file is used to define how filesystems should be mounted?
 ## Quiz Answer
 
 /etc/fstab
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -38,8 +38,4 @@ What is a reliable transport protocol?
 
 TCP
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

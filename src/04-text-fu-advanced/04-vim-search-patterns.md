@@ -33,8 +33,4 @@ What key is used to search in vim?
 ## Quiz Answer
 
 /
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

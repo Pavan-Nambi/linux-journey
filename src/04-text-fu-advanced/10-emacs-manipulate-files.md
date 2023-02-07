@@ -33,8 +33,4 @@ What command is used to open a file?
 ## Quiz Answer
 
 C-x C-f
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

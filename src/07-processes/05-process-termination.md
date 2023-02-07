@@ -27,8 +27,4 @@ What is the most common termination status for a process succeeding?
 ## Quiz Answer
 
 0
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -46,8 +46,4 @@ What unit is used to group together other units?
 
 target
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

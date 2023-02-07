@@ -54,8 +54,4 @@ What is the command to view NetworkManager information?
 ## Quiz Answer
 
 nm-tool
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

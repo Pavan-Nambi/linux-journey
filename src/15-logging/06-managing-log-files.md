@@ -19,8 +19,4 @@ What utility is used to manage logs?
 ## Quiz Answer
 
 logrotate
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

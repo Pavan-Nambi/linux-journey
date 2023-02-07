@@ -21,8 +21,4 @@ How do you see the manuals for a command?
 ## Quiz Answer
 
 man
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

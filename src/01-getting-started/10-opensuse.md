@@ -26,11 +26,7 @@ What is the name of openSUSE's Administration/Installation Tool?
 
 yast
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>
 
 
 <script src="../quiz.js"></script>

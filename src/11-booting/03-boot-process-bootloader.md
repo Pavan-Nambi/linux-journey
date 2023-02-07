@@ -34,8 +34,4 @@ What kernel parameter makes it so you don't see bootup messages?
 ## Quiz Answer
 
 quiet
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

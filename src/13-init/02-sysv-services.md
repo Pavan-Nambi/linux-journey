@@ -33,8 +33,4 @@ What is the command to stop a service named peanut with Sys V?
 ## Quiz Answer
 
 sudo service peanut stop
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

@@ -36,8 +36,4 @@ What is the dd option for block size?
 ## Quiz Answer
 
 bs
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

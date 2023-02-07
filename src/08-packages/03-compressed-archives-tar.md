@@ -68,8 +68,4 @@ What tar flag is used to create archives?
 ## Quiz Answer
 
 c
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

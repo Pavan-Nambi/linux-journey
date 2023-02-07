@@ -29,8 +29,4 @@ What directory is used to view detailed information on devices?
 ## Quiz Answer
 
 /sys
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

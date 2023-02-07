@@ -39,8 +39,4 @@ True or false, a subnet consists of a subnet mask and network prefix.
 ## Quiz Answer
 
 True
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>

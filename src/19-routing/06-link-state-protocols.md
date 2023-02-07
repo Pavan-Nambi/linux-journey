@@ -17,8 +17,4 @@ What is one of the most common link state protocols?
 ## Quiz Answer
 
 OSPF
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
-</div>
