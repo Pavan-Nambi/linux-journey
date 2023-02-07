@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>stdout</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../home_page.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Linux Journey</li><li class="chapter-item expanded "><a href="../01-getting-started/01-course-order.html"><strong aria-hidden="true">1.</strong> Getting Started</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../01-getting-started/01-linux-history.html"><strong aria-hidden="true">1.1.</strong> Linux History</a></li><li class="chapter-item expanded "><a href="../01-getting-started/02-choosing-a-linux-distribution.html"><strong aria-hidden="true">1.2.</strong> Choosing a Linux Distribution</a></li><li class="chapter-item expanded "><a href="../01-getting-started/03-debian.html"><strong aria-hidden="true">1.3.</strong> Debian</a></li><li class="chapter-item expanded "><a href="../01-getting-started/04-red-hat-enterprise-linux.html"><strong aria-hidden="true">1.4.</strong> Red hat enterprise linux</a></li><li class="chapter-item expanded "><a href="../01-getting-started/05-ubuntu.html"><strong aria-hidden="true">1.5.</strong> ubuntu</a></li><li class="chapter-item expanded "><a href="../01-getting-started/06-fedora.html"><strong aria-hidden="true">1.6.</strong> fedora</a></li><li class="chapter-item expanded "><a href="../01-getting-started/07-linux-mint.html"><strong aria-hidden="true">1.7.</strong> linux mint</a></li><li class="chapter-item expanded "><a href="../01-getting-started/08-gentoo.html"><strong aria-hidden="true">1.8.</strong> gentoo</a></li><li class="chapter-item expanded "><a href="../01-getting-started/09-arch-linux.html"><strong aria-hidden="true">1.9.</strong> arch linux</a></li><li class="chapter-item expanded "><a href="../01-getting-started/10-opensuse.html"><strong aria-hidden="true">1.10.</strong> openSUSE</a></li></ol></li><li class="chapter-item expanded "><a href="../02-command-line/02-course-order.html"><strong aria-hidden="true">2.</strong> The Command Line</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../02-command-line/01-the-shell.html"><strong aria-hidden="true">2.1.</strong> The Shell</a></li><li class="chapter-item expanded "><a href="../02-command-line/02-print-working-directory-pwd-command.html"><strong aria-hidden="true">2.2.</strong> Print working directory</a></li><li class="chapter-item expanded "><a href="../02-command-line/03-change-directory-cd-command.html"><strong aria-hidden="true">2.3.</strong> change directory</a></li><li class="chapter-item expanded "><a href="../02-command-line/04-list-directory-contents-ls-command.html"><strong aria-hidden="true">2.4.</strong> list directory contents</a></li><li class="chapter-item expanded "><a href="../02-command-line/05-touch-command.html"><strong aria-hidden="true">2.5.</strong> touch</a></li><li class="chapter-item expanded "><a href="../02-command-line/06-file-command.html"><strong aria-hidden="true">2.6.</strong> file</a></li><li class="chapter-item expanded "><a href="../02-command-line/07-cat-command.html"><strong aria-hidden="true">2.7.</strong> cat</a></li><li class="chapter-item expanded "><a href="../02-command-line/08-less-command.html"><strong aria-hidden="true">2.8.</strong> less</a></li><li class="chapter-item expanded "><a href="../02-command-line/09-history-command.html"><strong aria-hidden="true">2.9.</strong> history</a></li><li class="chapter-item expanded "><a href="../02-command-line/10-copy-cp-command.html"><strong aria-hidden="true">2.10.</strong> copy</a></li><li class="chapter-item expanded "><a href="../02-command-line/11-move-mv-command.html"><strong aria-hidden="true">2.11.</strong> move</a></li><li class="chapter-item expanded "><a href="../02-command-line/12-make-directory-mkdir-command.html"><strong aria-hidden="true">2.12.</strong> make directory</a></li><li class="chapter-item expanded "><a href="../02-command-line/13-remove-rm-command.html"><strong aria-hidden="true">2.13.</strong> remove</a></li><li class="chapter-item expanded "><a href="../02-command-line/14-find-command.html"><strong aria-hidden="true">2.14.</strong> find</a></li><li class="chapter-item expanded "><a href="../02-command-line/15-help-command.html"><strong aria-hidden="true">2.15.</strong> help</a></li><li class="chapter-item expanded "><a href="../02-command-line/16-man-command.html"><strong aria-hidden="true">2.16.</strong> man</a></li><li class="chapter-item expanded "><a href="../02-command-line/17-whatis-command.html"><strong aria-hidden="true">2.17.</strong> whatis</a></li><li class="chapter-item expanded "><a href="../02-command-line/18-alias-command.html"><strong aria-hidden="true">2.18.</strong> alias</a></li><li class="chapter-item expanded "><a href="../02-command-line/19-exit-command.html"><strong aria-hidden="true">2.19.</strong> exit</a></li></ol></li><li class="chapter-item expanded "><a href="../03-text-fu/03-text-fu-order.html"><strong aria-hidden="true">3.</strong> Text fu</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../03-text-fu/01-stdout-standard-out-redirect.html" class="active"><strong aria-hidden="true">3.1.</strong> stdout</a></li><li class="chapter-item expanded "><a href="../03-text-fu/02-stdin-standard-in-redirect.html"><strong aria-hidden="true">3.2.</strong> stdin</a></li><li class="chapter-item expanded "><a href="../03-text-fu/03-stderr-standard-error-redirect.html"><strong aria-hidden="true">3.3.</strong> stderr</a></li><li class="chapter-item expanded "><a href="../03-text-fu/04-pipe-tee-redirect.html"><strong aria-hidden="true">3.4.</strong> pipes</a></li><li class="chapter-item expanded "><a href="../03-text-fu/05-env-environment.html"><strong aria-hidden="true">3.5.</strong> env</a></li><li class="chapter-item expanded "><a href="../03-text-fu/06-cut-command.html"><strong aria-hidden="true">3.6.</strong> cut</a></li><li class="chapter-item expanded "><a href="../03-text-fu/07-paste-command.html"><strong aria-hidden="true">3.7.</strong> paste</a></li><li class="chapter-item expanded "><a href="../03-text-fu/08-head-command.html"><strong aria-hidden="true">3.8.</strong> head</a></li><li class="chapter-item expanded "><a href="../03-text-fu/09-tail-command.html"><strong aria-hidden="true">3.9.</strong> tail</a></li><li class="chapter-item expanded "><a href="../03-text-fu/10-expand-unexpand-command.html"><strong aria-hidden="true">3.10.</strong> expand and unexpand</a></li><li class="chapter-item expanded "><a href="../03-text-fu/12-sort-command.html"><strong aria-hidden="true">3.11.</strong> sort</a></li><li class="chapter-item expanded "><a href="../03-text-fu/13-tr-translate-command.html"><strong aria-hidden="true">3.12.</strong> translate</a></li><li class="chapter-item expanded "><a href="../03-text-fu/14-uniq-unique-command.html"><strong aria-hidden="true">3.13.</strong> uniq</a></li><li class="chapter-item expanded "><a href="../03-text-fu/15-nl-wc-command.html"><strong aria-hidden="true">3.14.</strong> wc</a></li><li class="chapter-item expanded "><a href="../03-text-fu/16-grep-command.html"><strong aria-hidden="true">3.15.</strong> grep</a></li></ol></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/textfuadvancedorder.html"><strong aria-hidden="true">4.</strong> Text fu advanced</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../04-text-fu-advanced/02-text-editors-vim-or-emacs.html"><strong aria-hidden="true">4.1.</strong> text editors</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/03-vim-text-editor.html"><strong aria-hidden="true">4.2.</strong> vim text editor</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/04-vim-search-patterns.html"><strong aria-hidden="true">4.3.</strong> vim search patterns</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/05-vim-navigation.html"><strong aria-hidden="true">4.4.</strong> vim navigation</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/06-vim-inserting-appending-text.html"><strong aria-hidden="true">4.5.</strong> vim inserting appending text</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/07-vim-editing.html"><strong aria-hidden="true">4.6.</strong> vim editing</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/08-vim-saving-and-exiting.html"><strong aria-hidden="true">4.7.</strong> vim saving and exiting</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/09-emacs-text-editor.html"><strong aria-hidden="true">4.8.</strong> emacs text editor</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/11-emacs-buffer-navigation.html"><strong aria-hidden="true">4.9.</strong> emacs buffer navigation</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/12-emacs-editing.html"><strong aria-hidden="true">4.10.</strong> emacs editing</a></li><li class="chapter-item expanded "><a href="../04-text-fu-advanced/13-emacs-exiting-and-help.html"><strong aria-hidden="true">4.11.</strong> emacs exiting and help</a></li></ol></li><li class="chapter-item expanded "><a href="../05-user-management/user-management-order.html"><strong aria-hidden="true">5.</strong> User Management</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../05-user-management/01-users-and-groups.html"><strong aria-hidden="true">5.1.</strong> users and groups</a></li><li class="chapter-item expanded "><a href="../05-user-management/02-root-user.html"><strong aria-hidden="true">5.2.</strong> root user</a></li><li class="chapter-item expanded "><a href="../05-user-management/03-etc-passwd-file.html"><strong aria-hidden="true">5.3.</strong> etc passwd file</a></li><li class="chapter-item expanded "><a href="../05-user-management/04-etc-shadow-file.html"><strong aria-hidden="true">5.4.</strong> etc shadow file</a></li><li class="chapter-item expanded "><a href="../05-user-management/05-etc-group-file.html"><strong aria-hidden="true">5.5.</strong> etc group file</a></li><li class="chapter-item expanded "><a href="../05-user-management/06-user-management-tools.html"><strong aria-hidden="true">5.6.</strong> user management tools</a></li></ol></li><li class="chapter-item expanded "><a href="../06-access/permissions-or-access-order.html"><strong aria-hidden="true">6.</strong> Access</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../06-access/01-file-permissions.html"><strong aria-hidden="true">6.1.</strong> file permissions</a></li><li class="chapter-item expanded "><a href="../06-access/02-modifying-permissions.html"><strong aria-hidden="true">6.2.</strong> modifying permissions</a></li><li class="chapter-item expanded "><a href="../06-access/03-ownership-permissions.html"><strong aria-hidden="true">6.3.</strong> ownership permissions</a></li><li class="chapter-item expanded "><a href="../06-access/04-unmask.html"><strong aria-hidden="true">6.4.</strong> unmask</a></li><li class="chapter-item expanded "><a href="../06-access/05-setuid-set-user-id.html"><strong aria-hidden="true">6.5.</strong> setuid set user id</a></li><li class="chapter-item expanded "><a href="../06-access/06-setgid-set-group-id.html"><strong aria-hidden="true">6.6.</strong> setgid set group id</a></li><li class="chapter-item expanded "><a href="../06-access/07-process-permissions.html"><strong aria-hidden="true">6.7.</strong> process permissions</a></li><li class="chapter-item expanded "><a href="../06-access/08-sticky-bit.html"><strong aria-hidden="true">6.8.</strong> sticky bit</a></li></ol></li><li class="chapter-item expanded "><a href="../07-processes/processes-order.html"><strong aria-hidden="true">7.</strong> Processes</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../07-processes/01-monitor-processes-ps-command.html"><strong aria-hidden="true">7.1.</strong> monitor processes ps</a></li><li class="chapter-item expanded "><a href="../07-processes/02-controlling-terminal.html"><strong aria-hidden="true">7.2.</strong> controlling terminal</a></li><li class="chapter-item expanded "><a href="../07-processes/03-process-details.html"><strong aria-hidden="true">7.3.</strong> process details</a></li><li class="chapter-item expanded "><a href="../07-processes/04-process-creation.html"><strong aria-hidden="true">7.4.</strong> process creation</a></li><li class="chapter-item expanded "><a href="../07-processes/05-process-termination.html"><strong aria-hidden="true">7.5.</strong> process termination</a></li><li class="chapter-item expanded "><a href="../07-processes/06-process-signals.html"><strong aria-hidden="true">7.6.</strong> process signals</a></li><li class="chapter-item expanded "><a href="../07-processes/07-killing-processes.html"><strong aria-hidden="true">7.7.</strong> killing processes</a></li><li class="chapter-item expanded "><a href="../07-processes/08-process-niceness.html"><strong aria-hidden="true">7.8.</strong> process niceness</a></li><li class="chapter-item expanded "><a href="../07-processes/09-process-states.html"><strong aria-hidden="true">7.9.</strong> process states</a></li><li class="chapter-item expanded "><a href="../07-processes/10-proc-filesystem.html"><strong aria-hidden="true">7.10.</strong> proc filesystem</a></li><li class="chapter-item expanded "><a href="../07-processes/11-job-control.html"><strong aria-hidden="true">7.11.</strong> job control</a></li></ol></li><li class="chapter-item expanded "><a href="../08-packages/packages-order.html"><strong aria-hidden="true">8.</strong> Packages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../08-packages/01-software-distribution.html"><strong aria-hidden="true">8.1.</strong> software distribution</a></li><li class="chapter-item expanded "><a href="../08-packages/02-package-repositories.html"><strong aria-hidden="true">8.2.</strong> package repositories</a></li><li class="chapter-item expanded "><a href="../08-packages/03-compressed-archives-tar.html"><strong aria-hidden="true">8.3.</strong> compressed archives tar</a></li><li class="chapter-item expanded "><a href="../08-packages/04-package-dependencies.html"><strong aria-hidden="true">8.4.</strong> package dependencies</a></li><li class="chapter-item expanded "><a href="../08-packages/05-package-install-tools.html"><strong aria-hidden="true">8.5.</strong> package install tools</a></li><li class="chapter-item expanded "><a href="../08-packages/06-package-management-systems.html"><strong aria-hidden="true">8.6.</strong> package management systems</a></li><li class="chapter-item expanded "><a href="../08-packages/07-compile-source-code.html"><strong aria-hidden="true">8.7.</strong> compile source code</a></li></ol></li><li class="chapter-item expanded "><a href="../09-devices/devices-order.html"><strong aria-hidden="true">9.</strong> Devices</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../09-devices/01-dev-directory.html"><strong aria-hidden="true">9.1.</strong> dev directory</a></li><li class="chapter-item expanded "><a href="../09-devices/02-device-types.html"><strong aria-hidden="true">9.2.</strong> device types</a></li><li class="chapter-item expanded "><a href="../09-devices/03-device-names.html"><strong aria-hidden="true">9.3.</strong> device names</a></li><li class="chapter-item expanded "><a href="../09-devices/04-sysfs.html"><strong aria-hidden="true">9.4.</strong> sysfs</a></li><li class="chapter-item expanded "><a href="../09-devices/05-udev.html"><strong aria-hidden="true">9.5.</strong> udev</a></li><li class="chapter-item expanded "><a href="../09-devices/06-listing-devices.html"><strong aria-hidden="true">9.6.</strong> listing devices</a></li><li class="chapter-item expanded "><a href="../09-devices/07-dd-command.html"><strong aria-hidden="true">9.7.</strong> dd command</a></li></ol></li><li class="chapter-item expanded "><a href="../10-filesystem/filesystem-order.html"><strong aria-hidden="true">10.</strong> File system</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-filesystem/01-file-system-heirarchy.html"><strong aria-hidden="true">10.1.</strong> file system heirarchy</a></li><li class="chapter-item expanded "><a href="../10-filesystem/02-file-system-types.html"><strong aria-hidden="true">10.2.</strong> file system types</a></li><li class="chapter-item expanded "><a href="../10-filesystem/03-anatomy-of-a-disk.html"><strong aria-hidden="true">10.3.</strong> anatomy of a disk</a></li><li class="chapter-item expanded "><a href="../10-filesystem/04-disk-partitioning.html"><strong aria-hidden="true">10.4.</strong> disk partitioning</a></li><li class="chapter-item expanded "><a href="../10-filesystem/05-creating-filesystems.html"><strong aria-hidden="true">10.5.</strong> creating filesystems</a></li><li class="chapter-item expanded "><a href="../10-filesystem/06-mounting-and-unmounting-filesystems.html"><strong aria-hidden="true">10.6.</strong> mounting and unmounting filesystems</a></li><li class="chapter-item expanded "><a href="../10-filesystem/07-etc-fstab-file-system-table.html"><strong aria-hidden="true">10.7.</strong> etc fstab file system table</a></li><li class="chapter-item expanded "><a href="../10-filesystem/08-swap-space.html"><strong aria-hidden="true">10.8.</strong> swap space</a></li><li class="chapter-item expanded "><a href="../10-filesystem/09-disk-usage.html"><strong aria-hidden="true">10.9.</strong> disk usage</a></li><li class="chapter-item expanded "><a href="../10-filesystem/10-filesystem-repair.html"><strong aria-hidden="true">10.10.</strong> filesystem repair</a></li><li class="chapter-item expanded "><a href="../10-filesystem/11-inodes.html"><strong aria-hidden="true">10.11.</strong> inodes</a></li><li class="chapter-item expanded "><a href="../10-filesystem/12-symlinks.html"><strong aria-hidden="true">10.12.</strong> symlinks</a></li></ol></li><li class="chapter-item expanded "><a href="../11-booting/boot-order.html"><strong aria-hidden="true">11.</strong> Booting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-booting/01-boot-process-overview.html"><strong aria-hidden="true">11.1.</strong> boot process overview</a></li><li class="chapter-item expanded "><a href="../11-booting/02-boot-process-bios.html"><strong aria-hidden="true">11.2.</strong> boot process bios</a></li><li class="chapter-item expanded "><a href="../11-booting/03-boot-process-bootloader.html"><strong aria-hidden="true">11.3.</strong> boot process bootloader</a></li><li class="chapter-item expanded "><a href="../11-booting/04-boot-process-kernel.html"><strong aria-hidden="true">11.4.</strong> boot process kernel</a></li><li class="chapter-item expanded "><a href="../11-booting/05-boot-process-init.html"><strong aria-hidden="true">11.5.</strong> boot process init</a></li></ol></li><li class="chapter-item expanded "><a href="../12-kernel/kernel-order.html"><strong aria-hidden="true">12.</strong> Kernel</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../12-kernel/01-kernel-overview.html"><strong aria-hidden="true">12.1.</strong> kernel overview</a></li><li class="chapter-item expanded "><a href="../12-kernel/02-kernel-privilege-levels.html"><strong aria-hidden="true">12.2.</strong> kernel privilege-levels</a></li><li class="chapter-item expanded "><a href="../12-kernel/03-system-calls.html"><strong aria-hidden="true">12.3.</strong> system calls</a></li><li class="chapter-item expanded "><a href="../12-kernel/04-kernel-installation.html"><strong aria-hidden="true">12.4.</strong> kernel installation</a></li><li class="chapter-item expanded "><a href="../12-kernel/05-kernel-location.html"><strong aria-hidden="true">12.5.</strong> kernel location</a></li><li class="chapter-item expanded "><a href="../12-kernel/06-kernel-modules.html"><strong aria-hidden="true">12.6.</strong> kernel modules</a></li></ol></li><li class="chapter-item expanded "><a href="../13-init/init-order.html"><strong aria-hidden="true">13.</strong> init</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../13-init/01-sysv-overview.html"><strong aria-hidden="true">13.1.</strong> sysv overview</a></li><li class="chapter-item expanded "><a href="../13-init/02-sysv-services.html"><strong aria-hidden="true">13.2.</strong> sysv services</a></li><li class="chapter-item expanded "><a href="../13-init/03-upstart-overview.html"><strong aria-hidden="true">13.3.</strong> upstart overview</a></li><li class="chapter-item expanded "><a href="../13-init/04-systemd-overview.html"><strong aria-hidden="true">13.4.</strong> systemd overview</a></li><li class="chapter-item expanded "><a href="../13-init/05-systemd-goals.html"><strong aria-hidden="true">13.5.</strong> systemd goals</a></li><li class="chapter-item expanded "><a href="../13-init/06-power-states.html"><strong aria-hidden="true">13.6.</strong> power states</a></li></ol></li><li class="chapter-item expanded "><a href="../14-process-utilization/process-utilization-order.html"><strong aria-hidden="true">14.</strong> Process utilization</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../14-process-utilization/01-tracking-processes-top.html"><strong aria-hidden="true">14.1.</strong> tracking processes top</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/02-tracking-processes-lsof-fuser.html"><strong aria-hidden="true">14.2.</strong> tracking processes lsof fuser</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/03-process-threads.html"><strong aria-hidden="true">14.3.</strong> process threads</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/04-cpu-monitoring.html"><strong aria-hidden="true">14.4.</strong> cpu monitoring</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/05-io-monitoring.html"><strong aria-hidden="true">14.5.</strong> io monitoring</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/06-memory-monitoring.html"><strong aria-hidden="true">14.6.</strong> memory monitoring</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/07-continuous-monitoring.html"><strong aria-hidden="true">14.7.</strong> continuous monitoring</a></li><li class="chapter-item expanded "><a href="../14-process-utilization/08-cron-jobs.html"><strong aria-hidden="true">14.8.</strong> cron jobs</a></li></ol></li><li class="chapter-item expanded "><a href="../15-logging/logging-order.html"><strong aria-hidden="true">15.</strong> Logging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../15-logging/01-system-logging.html"><strong aria-hidden="true">15.1.</strong> system logging</a></li><li class="chapter-item expanded "><a href="../15-logging/02-syslog.html"><strong aria-hidden="true">15.2.</strong> syslog</a></li><li class="chapter-item expanded "><a href="../15-logging/03-general-logging.html"><strong aria-hidden="true">15.3.</strong> general logging</a></li><li class="chapter-item expanded "><a href="../15-logging/04-kernel-logging.html"><strong aria-hidden="true">15.4.</strong> kernel logging</a></li><li class="chapter-item expanded "><a href="../15-logging/05-authenticating-logging.html"><strong aria-hidden="true">15.5.</strong> authenticating logging</a></li><li class="chapter-item expanded "><a href="../15-logging/06-managing-log-files.html"><strong aria-hidden="true">15.6.</strong> managing log files</a></li></ol></li><li class="chapter-item expanded "><a href="../16-network-sharing/network-sharing-order.html"><strong aria-hidden="true">16.</strong> Network Sharing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../16-network-sharing/01-network-file-sharing.html"><strong aria-hidden="true">16.1.</strong> network file sharing</a></li><li class="chapter-item expanded "><a href="../16-network-sharing/02-rsync.html"><strong aria-hidden="true">16.2.</strong> rsync</a></li><li class="chapter-item expanded "><a href="../16-network-sharing/03-simple-http-server.html"><strong aria-hidden="true">16.3.</strong> simple http server</a></li><li class="chapter-item expanded "><a href="../16-network-sharing/04-nfs-network-file-share.html"><strong aria-hidden="true">16.4.</strong> nfs network file share</a></li><li class="chapter-item expanded "><a href="../16-network-sharing/05-samba.html"><strong aria-hidden="true">16.5.</strong> samba</a></li></ol></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/network-fundamentals-order.html"><strong aria-hidden="true">17.</strong> Network Fundamentals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../17-network-fundamentals/01-network-basics.html"><strong aria-hidden="true">17.1.</strong> Network basics</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/02-osi-model.html"><strong aria-hidden="true">17.2.</strong> osi model</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/03-tcp-ip-model.html"><strong aria-hidden="true">17.3.</strong> tcp ip model</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/04-network-addressing.html"><strong aria-hidden="true">17.4.</strong> network addressing</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/05-application-layer.html"><strong aria-hidden="true">17.5.</strong> application layer</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/06-transport-layer.html"><strong aria-hidden="true">17.6.</strong> transport layer</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/07-network-layer.html"><strong aria-hidden="true">17.7.</strong> network layer</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/08-link-layer.html"><strong aria-hidden="true">17.8.</strong> link layer</a></li><li class="chapter-item expanded "><a href="../17-network-fundamentals/09-dhcp-overview.html"><strong aria-hidden="true">17.9.</strong> dhcp overview</a></li></ol></li><li class="chapter-item expanded "><a href="../18-subnetting/subnetting-order.html"><strong aria-hidden="true">18.</strong> subnetting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../18-subnetting/01-ipv4.html"><strong aria-hidden="true">18.1.</strong> ipv4</a></li><li class="chapter-item expanded "><a href="../18-subnetting/02-subnets.html"><strong aria-hidden="true">18.2.</strong> subnets</a></li><li class="chapter-item expanded "><a href="../18-subnetting/03-subnet-math.html"><strong aria-hidden="true">18.3.</strong> subnet math</a></li><li class="chapter-item expanded "><a href="../18-subnetting/04-subnetting-cheats.html"><strong aria-hidden="true">18.4.</strong> subnetting cheats</a></li><li class="chapter-item expanded "><a href="../18-subnetting/05-classless-inter-domain-routing-cidr.html"><strong aria-hidden="true">18.5.</strong> classless inter domain routing cidr</a></li><li class="chapter-item expanded "><a href="../18-subnetting/06-nat-network-address-translation.html"><strong aria-hidden="true">18.6.</strong> nat network address translation</a></li><li class="chapter-item expanded "><a href="../18-subnetting/07-ipv6.html"><strong aria-hidden="true">18.7.</strong> ipv6</a></li></ol></li><li class="chapter-item expanded "><a href="../19-routing/routing-order.html"><strong aria-hidden="true">19.</strong> Routing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../19-routing/01-what-is-a-router.html"><strong aria-hidden="true">19.1.</strong> what is a router</a></li><li class="chapter-item expanded "><a href="../19-routing/02-routing-table.html"><strong aria-hidden="true">19.2.</strong> routing table</a></li><li class="chapter-item expanded "><a href="../19-routing/03-path-of-a-packet.html"><strong aria-hidden="true">19.3.</strong> path of a packet</a></li><li class="chapter-item expanded "><a href="../19-routing/04-routing-protocols.html"><strong aria-hidden="true">19.4.</strong> routing protocols</a></li><li class="chapter-item expanded "><a href="../19-routing/05-distance-vector-protocols.html"><strong aria-hidden="true">19.5.</strong> distance vector protocols</a></li><li class="chapter-item expanded "><a href="../19-routing/06-link-state-protocols.html"><strong aria-hidden="true">19.6.</strong> link state protocols</a></li><li class="chapter-item expanded "><a href="../19-routing/07-bgp-border-gateway-protocol.html"><strong aria-hidden="true">19.7.</strong> bgp border gateway protocol</a></li></ol></li><li class="chapter-item expanded "><a href="../20-network-configuration/network-config-order.html"><strong aria-hidden="true">20.</strong> Network Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../20-network-configuration/01-network-interfaces.html"><strong aria-hidden="true">20.1.</strong> network interfaces</a></li><li class="chapter-item expanded "><a href="../20-network-configuration/02-route.html"><strong aria-hidden="true">20.2.</strong> route</a></li><li class="chapter-item expanded "><a href="../20-network-configuration/03-dhclient.html"><strong aria-hidden="true">20.3.</strong> dhclient</a></li><li class="chapter-item expanded "><a href="../20-network-configuration/04-network-manager.html"><strong aria-hidden="true">20.4.</strong> network manager</a></li><li class="chapter-item expanded "><a href="../20-network-configuration/05-arp-command.html"><strong aria-hidden="true">20.5.</strong> arp command</a></li></ol></li><li class="chapter-item expanded "><a href="../21-network-troubleshooting/network-troubleshooting-order.html"><strong aria-hidden="true">21.</strong> Network troubleshooting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../21-network-troubleshooting/01-icmp.html"><strong aria-hidden="true">21.1.</strong> icmp</a></li><li class="chapter-item expanded "><a href="../21-network-troubleshooting/02-ping.html"><strong aria-hidden="true">21.2.</strong> ping</a></li><li class="chapter-item expanded "><a href="../21-network-troubleshooting/03-traceroute.html"><strong aria-hidden="true">21.3.</strong> traceroute</a></li><li class="chapter-item expanded "><a href="../21-network-troubleshooting/04-netstat.html"><strong aria-hidden="true">21.4.</strong> netstat</a></li><li class="chapter-item expanded "><a href="../21-network-troubleshooting/05-packet-analysis.html"><strong aria-hidden="true">21.5.</strong> packet analysis</a></li></ol></li><li class="chapter-item expanded "><a href="../22-dns/dns-order.html"><strong aria-hidden="true">22.</strong> DNS</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../22-dns/01-what-is-dns.html"><strong aria-hidden="true">22.1.</strong> what is dns</a></li><li class="chapter-item expanded "><a href="../22-dns/02-dns-components.html"><strong aria-hidden="true">22.2.</strong> dns components</a></li><li class="chapter-item expanded "><a href="../22-dns/03-dns-process.html"><strong aria-hidden="true">22.3.</strong> dns process</a></li><li class="chapter-item expanded "><a href="../22-dns/04-etc-hosts.html"><strong aria-hidden="true">22.4.</strong> etc hosts</a></li><li class="chapter-item expanded "><a href="../22-dns/05-dns-setup.html"><strong aria-hidden="true">22.5.</strong> dns setup</a></li><li class="chapter-item expanded "><a href="../22-dns/06-dns-tools.html"><strong aria-hidden="true">22.6.</strong> dns tools</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="stdout-standard-out"><a class="header" href="#stdout-standard-out">stdout (Standard Out)</a></h1>
+<h2 id="lesson-content"><a class="header" href="#lesson-content">Lesson Content</a></h2>
+<p>By now, we've become familiar with many commands and their output and that brings us to our next subject I/O (input/output) streams. Let's run the following command and we'll discuss how this works. </p>
+<pre>$ echo Hello World > peanuts.txt</pre>
+<p>What just happened? Well check the directory where you ran that command and lo and behold you should see a file called peanuts.txt, look inside that file and you should see the text Hello World. Lots of things just happened in one command so let's break it down. </p>
+<p>First let's break down the first part: </p>
+<pre>$ echo Hello World</pre>
+<p>We know this prints out Hello World to the screen, but how? Processes use I/O streams to receive input and return output. By default the echo command takes the input (standard input or stdin) from the keyboard and returns the output (standard output or stdout) to the screen. So that's why when you type echo Hello World in your shell, you get Hello World on the screen. However, I/O redirection allows us to change this default behavior giving us greater file flexibility. </p>
+<p>Let's proceed to the next part of the command: </p>
+<pre> > </pre>
+<p>The &gt; is a redirection operator that allows us the change where standard output goes. It allows us to send the output of echo Hello World to a file instead of the screen. If the file does not already exist it will create it for us. However, if it does exist it will overwrite it (you can add a shell flag to prevent this depending on what shell you are using).</p>
+<p>And that's basically how stdout redirection works!</p>
+<p>Well let's say I didn't want to overwrite my peanuts.txt, luckily there is a redirection operator for that as well, &gt;&gt;: </p>
+<pre>$ echo Hello World >> peanuts.txt</pre>
+<p>This will append Hello World to the end of the peanuts.txt file, if the file doesn't already exist it will create it for us like it did with the &gt; redirector! </p>
+<h2 id="exercise"><a class="header" href="#exercise">Exercise</a></h2>
+<p>Try a couple of commands: </p>
+<pre>
+$ ls -l /var/log > myoutput.txt
+$ echo Hello World > rm
+$ > somefile.txt 
+</pre>
+<h2 id="quiz-question"><a class="header" href="#quiz-question">Quiz Question</a></h2>
+<p>What redirector do you use to append output to a file? </p>
+<h2 id="quiz-answer"><a class="header" href="#quiz-answer">Quiz Answer</a></h2>
+<blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+<script src="../quiz.js"></script>
+<div id="quiz">
+  {{ createQuiz("Who developed the Linux kernel?", "Linus Torvalds") }}
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../03-text-fu/03-text-fu-order.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../03-text-fu/02-stdin-standard-in-redirect.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../03-text-fu/03-text-fu-order.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../03-text-fu/02-stdin-standard-in-redirect.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
