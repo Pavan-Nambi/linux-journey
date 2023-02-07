@@ -1,4 +1,4 @@
-# AS linuxjourney site is down and its hard to study frm md files locally i made this using md book 
+# As linuxjourney site is down and its hard to study from md files locally i made this using md book 
 
 thanks to @[LunaGNUisance](https://github.com/LunaGNUisance) for organising files! 
 
