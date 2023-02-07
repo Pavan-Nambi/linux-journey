@@ -21,12 +21,6 @@ Debian is an overall great operating system for any platform.
 
 If you're interested in having Debian as your operating system, head over to the installation section and give it a try: <a href='https://www.debian.org/'>https://www.debian.org/</a>
 
-## Quiz 
 
-<script src="../quiz.js"></script>
 
-<div id="quiz">
-  {{ createQuiz("What kind of release does Testing and Unstable have? ", "Rolling") }}
-</div>
-<script src="../quiz.js"></script>
 

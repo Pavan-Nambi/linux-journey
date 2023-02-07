@@ -24,9 +24,4 @@ If you're interested in having RHEL as your operating system, head over to the i
 
 
 
-<script src="../quiz.js"></script>
-
-<div id="quiz">
-  {{ createQuiz("What package manager does RHEL use?", "RPM") }}
-</div>
 

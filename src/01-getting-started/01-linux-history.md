@@ -22,8 +22,4 @@ Additional reading:
 <li><a href='https://stallman.org/'>Richard Stallman</a></li>
 <li><a href='https://en.wikipedia.org/wiki/Linus_Torvalds'>Linus Torvalds</a></li>
 
-<script src="../quiz.js"></script>
-
-<div id="quiz">
-</div>
 

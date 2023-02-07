@@ -20,9 +20,3 @@ If you're interested in having Ubuntu as your operating system, head over to the
 <a href='http://www.ubuntu.com/'>http://www.ubuntu.com/</a>
 
 
-<script src="../quiz.js"></script>
-
-<div id="quiz">
-  {{ createQuiz("What operating system is Ubuntu based off of?", "Debian") }}
-</div>
-
