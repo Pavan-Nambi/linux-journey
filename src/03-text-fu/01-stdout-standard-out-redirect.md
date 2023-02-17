@@ -1,6 +1,5 @@
 # stdout (Standard Out)
 
-
 ## Lesson Content
 
 By now, we've become familiar with many commands and their output and that brings us to our next subject I/O (input/output) streams. Let's run the following command and we'll discuss how this works. 
